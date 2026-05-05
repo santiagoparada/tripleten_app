@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# datos pesados
+bogota_rni_limpio.csv
+bogota_top10.csv
+Registro_de_mediciones_de_campos_electromagn_ticos_-_RNI.csv
