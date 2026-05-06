@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="Radiación Bogotá", layout="wide")
+st.set_page_config(page_title="Radiación Bogotá", layout="centered")
 
 df = pd.read_csv('bogota_app.csv')
 df['fecha_medicion'] = pd.to_datetime(df['fecha_medicion'])
